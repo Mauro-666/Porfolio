@@ -5,12 +5,14 @@
     box-sizing: border-box;
 
 }
+/*contenedor tarjetas*/
 .wrap{
     width: 1100px;
     margin: 100px auto;
     display: flex;
     justify-content: center;
 }
+
 .tarjeta-wrap{
     margin: 10px;
     -webkit-perspective: 800;
@@ -63,6 +65,7 @@
     font-family: "open sans";
 }
 
+/*efecto tarjetas al pasar el cursor*/
 .tarjeta-wrap:hover .tarjeta{
     transform: rotateY(180deg);
 }
@@ -71,6 +74,7 @@
     transform: rotateY(180deg);
 }
 
+/*diseño interrior*/
 .card1{
     background-image: url(img/yo.jpg);
     background-size: cover;
