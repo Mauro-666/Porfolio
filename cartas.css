@@ -75,9 +75,13 @@
 }
 
 /*diseño interrior*/
-.card1{
+/*.card1{
     background-image: url(img/yo.jpg);
     background-size: cover;
+}*/
+.card1{
+background-image: url(img/dataAnalitics.png);
+background-size: cover;
 }
 .card2{
     background-image: url(/img/CertUTN.png);
@@ -88,10 +92,10 @@
     background-image: url(img/CertCoder.png);
     background-size: cover;
 }
-.card4{
-    background-image: url(img/Data.jpg);
+/*.card4{
+    background-image: url();
     background-size: cover;
-}
+}*/
 .card5{
     background-image: url(img/Dev.jpg);
     background-size: cover;
